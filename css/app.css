@@ -1,8 +1,8 @@
 body{
-    background-image: url(../images/cityscape.jpg);
-    background: url("../images/cityscape.jpg") no-repeat top center fixed;
-	background-size: cover;
-	margin: 0;
-	padding: 0;
-    color: white;
+    transition: background-color 5.0s ease;
+    background-color: #FFFFFF;
+}
+
+body:hover{
+    background-color: #000000;
 }
